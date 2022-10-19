@@ -1,0 +1,50 @@
+body{
+background-color:8FE3CF; 
+}
+
+h1{
+font-family: "Century Gothic", sans-serif; 
+color: "black"; 
+text-align:center; 
+font-size: 60px;
+}
+
+p1{
+font-family: "Open Sans", sans-serif; 
+color: #002B5B;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002B5B;
+}
+
+li {
+  float: right;
+}
+
+li a {
+display: block;
+color: white;
+font-family: "Open Sans";
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #256D85;
+}
+
+.img-container{
+float:left;
+width:33%;
+opacity:0.6;
+}
+
+.img-container:hover{
+opacity:1;
+}
