@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Welcome to Oman </title>
+<link rel="icon" type="image/x-icon" href="oman-flag.png">
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+
+
+<body>
+
+<ul>
+  <li><a class="active" href="ContactPage.html">Contact</a></li>
+  <li><a href="UnderConstruction.html">Hotels & Restaurants</a></li>
+  <li><a href="Culture.html">Culture</a></li>
+  <li style="background-color: #256D85"><a href="PlacesToVisit.html">Places to Visit</a></li>
+  <li><a href="Homepage.html">Home</a></li>
+</ul>
+<h1> Places to Visit </h1>
+
+<p1 style="background-color:"#8FE3CF";"> This site needs your help! If you live in Oman, we appriciate your thoughts on the most beutiful places in Oman to visit, wether it is in the untouched nature or in the heart of buzzing Muscat. You can annonomously submit any places you enjoy to go to anywhere between the borders of the Sultanate in the form below.
+</p1>
+
+<div class="MyVideo">
+<video autoplay muted loop id="myVideo" style="position: fixed;right: 0;bottom: 0;max-width: 50%;opacity:1;padding:10px;">
+<source src="drone-vid.mp4" type="video/mp4">
+</video>
+</div>
+
+
+<br>
+<h style="font-size:100px;"> </h>
+<br>
+<div class="form" >
+<form action=<submissions.php" method="POST">
+  <label for="place">What is your favourite spot in Oman?</label><br>
+  <input type="text" id="fname" name="place" value=""><br>
+  <label for="location">Describe Location</label><br>
+  <input type="text" id="lname" name="location" placeholder="City, Governorate, etc."><br><br>
+  <input type="submit" value="Submit">
+</form> 
+</div>
+
+<p1> THANK YOU! We appreciate your ideas a lot. </p1>
+
+<br>
+
+
+
+
+
+
+
+<audio autoplay src="Arabic-bgmusic.mp3">
+
+</body>
+</html>
+
+
+</body>
+
+
+<!-- https://colorhunt.co/palette/002b5b2b4865256d858fe3cf -->
+
+</html>
